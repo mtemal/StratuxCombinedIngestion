@@ -117,16 +117,25 @@ Stratux 2:
  
  
 [Unit]
+
 Description=StratuxCombineInjestion
+
 After=network.target
+
 After=stratux.service
+
 
 [Service]
 ExecStart=/opt/stratux/bin/StratuxMultiStation
+
 StandardOutput=journal
+
 StandardError=journal
+
 Restart=always
+
 RestartSec=5 
+
 
 [Install]
 WantedBy=multi-user.target
@@ -136,13 +145,19 @@ Lets build the shell script that the systemd service uses to makes this happen:
 
 
 nano /opt/stratux/bin/StratuxMultiStation
+
 #!/bin/bash
+
 nc 192.168.15.41 30005 | nc localhost 30004
 
 
+
 My observations:
+
 Beast format works best (port 30005)
+
 RAW TCP port (30002) results in garbage data in the webpage. 
+
 
 
 Periodic reboots will be required as Stratux by default runs in Read Only mode which becomes filled with logs around 3 days. 
