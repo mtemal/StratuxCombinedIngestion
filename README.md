@@ -104,7 +104,7 @@ Beast format works best (port 30005)
 RAW TCP port (30002) results in garbage data in the webpage. 
 
 
-Periodic reboots will be required as Stratux by default runs in Read Only mode which becomexs filled with logs around 3 days. 
+Periodic reboots will be required as Stratux by default runs in Read Only mode which becomes filled with logs around 3 days. 
 
 
  
