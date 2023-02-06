@@ -1,0 +1,14 @@
+[Unit]
+Description=StratuxCombineInjestion
+After=network.target
+After=stratux.service
+
+[Service]
+ExecStart=/opt/stratux/bin/StratuxMultiStation
+StandardOutput=journal
+StandardError=journal
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
