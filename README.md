@@ -2,6 +2,9 @@
 
 
 My intent is to combine multiple stratux units to maximize the range of my Attic based stratux setup and be able to pair it with a real IPAD based EFB utility (FltPlanGo and ForeFlight). 
+
+
+
 I have one "full" Stratux : Stratux 1 ; and a second stratux (stratux 2 with only an SDR Stratux 2). 
 Both are hardwired to my router (192.168.15.1) with static IP's:
   Stratux 1: 192.168.15.39 
