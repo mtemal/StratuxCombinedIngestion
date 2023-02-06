@@ -1,7 +1,7 @@
 # StratuxMultiStation
 
 
-My intent is to combine multiple stratux units to maximize the range of my Attic based stratux setup and be able to pair it with a real IPAD based EFB utility (FltPlanGo and ForeFlight). 
+My intent is to combine multiple stratux units hardwired into my router to maximize the range of my Attic based stratux setup and be able to pair it with a real IPAD based EFB utility (FltPlanGo and ForeFlight). 
 
 
 
